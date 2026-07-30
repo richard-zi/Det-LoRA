@@ -1,0 +1,61 @@
+=== nano seed 42 ===
+dichte Baseline B        mAP@.5=0.6461 mAP=0.4378 | tank=0.63 truc=0.64 airc=0.39 heli=0.70 car=0.86 airc=0.66
+naiv (Score, n=3272)     mAP@.5=0.5937 mAP=0.4019 | tank=0.64 truc=0.48 airc=0.39 heli=0.68 car=0.81 airc=0.56
+gate (penalty=0.5, n=3217) mAP@.5=0.6953 mAP=0.4739 | tank=0.72 truc=0.63 airc=0.58 heli=0.71 car=0.84 airc=0.68
+=== nano seed 43 ===
+dichte Baseline B        mAP@.5=0.6236 mAP=0.4322 | tank=0.56 truc=0.68 airc=0.35 heli=0.62 car=0.86 airc=0.67
+naiv (Score, n=3065)     mAP@.5=0.5523 mAP=0.3824 | tank=0.56 truc=0.49 airc=0.35 heli=0.60 car=0.83 airc=0.49
+gate (penalty=0.5, n=3039) mAP@.5=0.6838 mAP=0.4721 | tank=0.66 truc=0.66 airc=0.56 heli=0.69 car=0.87 airc=0.67
+=== nano seed 44 ===
+dichte Baseline B        mAP@.5=0.6282 mAP=0.4293 | tank=0.62 truc=0.63 airc=0.33 heli=0.65 car=0.88 airc=0.65
+naiv (Score, n=3582)     mAP@.5=0.5719 mAP=0.3950 | tank=0.62 truc=0.50 airc=0.32 heli=0.63 car=0.82 airc=0.55
+gate (penalty=0.5, n=3505) mAP@.5=0.7016 mAP=0.4779 | tank=0.73 truc=0.65 airc=0.54 heli=0.67 car=0.89 airc=0.72
+=== small seed 42 ===
+dichte Baseline B        mAP@.5=0.6411 mAP=0.4386 | tank=0.61 truc=0.64 airc=0.38 heli=0.68 car=0.85 airc=0.69
+naiv (Score, n=3119)     mAP@.5=0.5816 mAP=0.3977 | tank=0.63 truc=0.47 airc=0.36 heli=0.66 car=0.80 airc=0.57
+gate (penalty=0.5, n=3079) mAP@.5=0.6901 mAP=0.4743 | tank=0.75 truc=0.63 airc=0.54 heli=0.70 car=0.84 airc=0.68
+=== small seed 43 ===
+dichte Baseline B        mAP@.5=0.6395 mAP=0.4435 | tank=0.65 truc=0.66 airc=0.41 heli=0.62 car=0.85 airc=0.64
+naiv (Score, n=3898)     mAP@.5=0.6021 mAP=0.4160 | tank=0.67 truc=0.52 airc=0.43 heli=0.62 car=0.79 airc=0.60
+gate (penalty=0.5, n=3780) mAP@.5=0.6868 mAP=0.4770 | tank=0.74 truc=0.63 airc=0.56 heli=0.66 car=0.84 airc=0.68
+=== small seed 44 ===
+dichte Baseline B        mAP@.5=0.6539 mAP=0.4488 | tank=0.59 truc=0.67 airc=0.50 heli=0.74 car=0.87 airc=0.56
+naiv (Score, n=3719)     mAP@.5=0.6036 mAP=0.4125 | tank=0.63 truc=0.52 airc=0.46 heli=0.73 car=0.81 airc=0.47
+gate (penalty=0.5, n=3606) mAP@.5=0.7015 mAP=0.4819 | tank=0.73 truc=0.65 airc=0.60 heli=0.76 car=0.84 airc=0.63
+=== base seed 42 ===
+dichte Baseline B        mAP@.5=0.6204 mAP=0.4217 | tank=0.65 truc=0.65 airc=0.33 heli=0.66 car=0.86 airc=0.58
+naiv (Score, n=3739)     mAP@.5=0.5450 mAP=0.3699 | tank=0.62 truc=0.53 airc=0.25 heli=0.66 car=0.79 airc=0.41
+gate (penalty=0.5, n=3714) mAP@.5=0.6832 mAP=0.4652 | tank=0.72 truc=0.72 airc=0.49 heli=0.68 car=0.85 airc=0.64
+=== base seed 43 ===
+dichte Baseline B        mAP@.5=0.6355 mAP=0.4302 | tank=0.63 truc=0.63 airc=0.37 heli=0.69 car=0.85 airc=0.64
+naiv (Score, n=3920)     mAP@.5=0.5724 mAP=0.3867 | tank=0.64 truc=0.48 airc=0.35 heli=0.67 car=0.78 airc=0.52
+gate (penalty=0.5, n=3894) mAP@.5=0.6915 mAP=0.4697 | tank=0.72 truc=0.68 airc=0.52 heli=0.71 car=0.86 airc=0.66
+=== base seed 44 ===
+dichte Baseline B        mAP@.5=0.6176 mAP=0.4206 | tank=0.59 truc=0.62 airc=0.40 heli=0.63 car=0.86 airc=0.60
+naiv (Score, n=4298)     mAP@.5=0.5708 mAP=0.3877 | tank=0.60 truc=0.47 airc=0.39 heli=0.62 car=0.79 airc=0.55
+gate (penalty=0.5, n=4255) mAP@.5=0.6938 mAP=0.4684 | tank=0.71 truc=0.63 airc=0.60 heli=0.67 car=0.84 airc=0.71
+=== medium seed 42 ===
+dichte Baseline B        mAP@.5=0.6421 mAP=0.4476 | tank=0.66 truc=0.68 airc=0.35 heli=0.73 car=0.87 airc=0.57
+naiv (Score, n=3611)     mAP@.5=0.5662 mAP=0.3934 | tank=0.64 truc=0.47 airc=0.31 heli=0.72 car=0.82 airc=0.45
+gate (penalty=0.5, n=3509) mAP@.5=0.7173 mAP=0.4960 | tank=0.81 truc=0.71 airc=0.60 heli=0.75 car=0.83 airc=0.61
+=== medium seed 43 ===
+dichte Baseline B        mAP@.5=0.6708 mAP=0.4628 | tank=0.72 truc=0.63 airc=0.39 heli=0.73 car=0.90 airc=0.66
+naiv (Score, n=3945)     mAP@.5=0.6190 mAP=0.4279 | tank=0.73 truc=0.49 airc=0.40 heli=0.71 car=0.86 airc=0.52
+gate (penalty=0.5, n=3845) mAP@.5=0.7114 mAP=0.4895 | tank=0.77 truc=0.67 airc=0.55 heli=0.74 car=0.86 airc=0.68
+=== medium seed 44 ===
+dichte Baseline B        mAP@.5=0.6825 mAP=0.4752 | tank=0.68 truc=0.68 airc=0.45 heli=0.75 car=0.88 airc=0.67
+naiv (Score, n=4336)     mAP@.5=0.6285 mAP=0.4375 | tank=0.71 truc=0.54 airc=0.40 heli=0.72 car=0.84 airc=0.56
+gate (penalty=0.5, n=4210) mAP@.5=0.7306 mAP=0.5066 | tank=0.79 truc=0.69 airc=0.58 heli=0.74 car=0.87 airc=0.72
+=== large seed 42 ===
+dichte Baseline B        mAP@.5=0.6691 mAP=0.4660 | tank=0.67 truc=0.67 airc=0.40 heli=0.74 car=0.88 airc=0.65
+naiv (Score, n=3726)     mAP@.5=0.6226 mAP=0.4329 | tank=0.68 truc=0.52 airc=0.42 heli=0.71 car=0.84 airc=0.56
+gate (penalty=0.5, n=3632) mAP@.5=0.7264 mAP=0.5033 | tank=0.80 truc=0.68 airc=0.57 heli=0.76 car=0.87 airc=0.67
+=== large seed 43 ===
+dichte Baseline B        mAP@.5=0.6338 mAP=0.4420 | tank=0.63 truc=0.64 airc=0.36 heli=0.67 car=0.86 airc=0.64
+naiv (Score, n=3907)     mAP@.5=0.5878 mAP=0.4126 | tank=0.64 truc=0.48 airc=0.42 heli=0.64 car=0.81 airc=0.53
+gate (penalty=0.5, n=3849) mAP@.5=0.6924 mAP=0.4839 | tank=0.77 truc=0.66 airc=0.57 heli=0.69 car=0.85 airc=0.60
+=== large seed 44 ===
+dichte Baseline B        mAP@.5=0.6743 mAP=0.4664 | tank=0.69 truc=0.69 airc=0.40 heli=0.78 car=0.89 airc=0.60
+naiv (Score, n=3814)     mAP@.5=0.6342 mAP=0.4404 | tank=0.70 truc=0.55 airc=0.42 heli=0.75 car=0.84 airc=0.55
+gate (penalty=0.5, n=3759) mAP@.5=0.7406 mAP=0.5105 | tank=0.80 truc=0.74 airc=0.58 heli=0.78 car=0.87 airc=0.68
+SWEEP_DONE

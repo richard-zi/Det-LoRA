@@ -1,0 +1,286 @@
+{
+  "suite_name": "thesis_l40_cldetr",
+  "suite_dir": "experiments/suites/thesis_l40_cldetr",
+  "groups": {
+    "nano:cl_detr": [
+      {
+        "seed": 42,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_nano/seed_42/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.6864088368350898,
+          "mAP@0.75": 0.5544396216303037,
+          "mAP@0.95": 0.02981986359157698,
+          "mAP@0.5:0.95": 0.48330023327903704,
+          "Precision@0.5": 0.03525457323207621,
+          "Precision@0.95": 0.003347277162903206,
+          "Recall@0.5": 0.9656597800142466,
+          "Recall@0.95": 0.12799798414261154,
+          "F1@0.5": 0.06541153642580051,
+          "F1@0.95": 0.006275466450767492
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      },
+      {
+        "seed": 43,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_nano/seed_43/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.6548623006279309,
+          "mAP@0.75": 0.5574268795835545,
+          "mAP@0.95": 0.031211789382685432,
+          "mAP@0.5:0.95": 0.47360900821586666,
+          "Precision@0.5": 0.039543090580361165,
+          "Precision@0.95": 0.0043492272548609975,
+          "Recall@0.5": 0.9485562433160251,
+          "Recall@0.95": 0.1487972738623356,
+          "F1@0.5": 0.07394739084109868,
+          "F1@0.95": 0.008206708932381835
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      },
+      {
+        "seed": 44,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_nano/seed_44/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.6274697097200738,
+          "mAP@0.75": 0.5210751317739305,
+          "mAP@0.95": 0.02379784208390122,
+          "mAP@0.5:0.95": 0.4458532611856996,
+          "Precision@0.5": 0.04210616281058768,
+          "Precision@0.95": 0.005113741324883759,
+          "Recall@0.5": 0.922619950849734,
+          "Recall@0.95": 0.134394641637593,
+          "F1@0.5": 0.07811634061439787,
+          "F1@0.95": 0.009519335242914423
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      }
+    ],
+    "small:cl_detr": [
+      {
+        "seed": 42,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_small/seed_42/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.718212504010496,
+          "mAP@0.75": 0.6202835197122041,
+          "mAP@0.95": 0.043045042570228155,
+          "mAP@0.5:0.95": 0.5294793841917805,
+          "Precision@0.5": 0.0693697244531642,
+          "Precision@0.95": 0.008247668143167488,
+          "Recall@0.5": 0.9651625454644618,
+          "Recall@0.95": 0.14888337433851032,
+          "F1@0.5": 0.11777569039107234,
+          "F1@0.95": 0.014347784877277142
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      },
+      {
+        "seed": 43,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_small/seed_43/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.6794230043092307,
+          "mAP@0.75": 0.5715750639342289,
+          "mAP@0.95": 0.023171229749040605,
+          "mAP@0.5:0.95": 0.49116376320544447,
+          "Precision@0.5": 0.061762507286639505,
+          "Precision@0.95": 0.006627853747095232,
+          "Recall@0.5": 0.9473401576449608,
+          "Recall@0.95": 0.1287085101685732,
+          "F1@0.5": 0.11172823871289318,
+          "F1@0.95": 0.012066285197349444
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      },
+      {
+        "seed": 44,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_small/seed_44/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.6687960459491151,
+          "mAP@0.75": 0.5530368277860683,
+          "mAP@0.95": 0.03271873678737041,
+          "mAP@0.5:0.95": 0.4707609557947016,
+          "Precision@0.5": 0.06488405103379818,
+          "Precision@0.95": 0.007263153251805769,
+          "Recall@0.5": 0.9467921552278012,
+          "Recall@0.95": 0.14655266098302364,
+          "F1@0.5": 0.11557928937456795,
+          "F1@0.95": 0.013059296456500715
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      }
+    ],
+    "base:cl_detr": [
+      {
+        "seed": 42,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_base/seed_42/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.7308113471976451,
+          "mAP@0.75": 0.628020405078464,
+          "mAP@0.95": 0.0602393664468876,
+          "mAP@0.5:0.95": 0.5458847019220698,
+          "Precision@0.5": 0.06454232475073358,
+          "Precision@0.95": 0.008068730909285757,
+          "Recall@0.5": 0.9768072015982622,
+          "Recall@0.95": 0.17398921793952912,
+          "F1@0.5": 0.1154447007792621,
+          "F1@0.95": 0.014610253989875146
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      },
+      {
+        "seed": 43,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_base/seed_43/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.67239427014349,
+          "mAP@0.75": 0.565105509012243,
+          "mAP@0.95": 0.031448829895259676,
+          "mAP@0.5:0.95": 0.4922514903035797,
+          "Precision@0.5": 0.046239922255943866,
+          "Precision@0.95": 0.005340066690002657,
+          "Recall@0.5": 0.9553573420505402,
+          "Recall@0.95": 0.13554744438341335,
+          "F1@0.5": 0.08599995240059098,
+          "F1@0.95": 0.009994769859317083
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      },
+      {
+        "seed": 44,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_base/seed_44/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.6965103349278245,
+          "mAP@0.75": 0.5831183925352966,
+          "mAP@0.95": 0.03603047813660731,
+          "mAP@0.5:0.95": 0.5007898409745071,
+          "Precision@0.5": 0.06866910643591277,
+          "Precision@0.95": 0.007049919252166372,
+          "Recall@0.5": 0.9606919156926271,
+          "Recall@0.95": 0.14792906058562824,
+          "F1@0.5": 0.11999030048671948,
+          "F1@0.95": 0.012535181524898896
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      }
+    ],
+    "medium:cl_detr": [
+      {
+        "seed": 42,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_medium/seed_42/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.7382626326918905,
+          "mAP@0.75": 0.6300488991095304,
+          "mAP@0.95": 0.04650329627144506,
+          "mAP@0.5:0.95": 0.5474149929090814,
+          "Precision@0.5": 0.08790512110413007,
+          "Precision@0.95": 0.008921807215699207,
+          "Recall@0.5": 0.960204476622511,
+          "Recall@0.95": 0.1480515280368254,
+          "F1@0.5": 0.14277415217545364,
+          "F1@0.95": 0.015193729235893039
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      },
+      {
+        "seed": 43,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_medium/seed_43/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.6982467995277721,
+          "mAP@0.75": 0.5957847151632607,
+          "mAP@0.95": 0.03404005730698343,
+          "mAP@0.5:0.95": 0.5109900002249584,
+          "Precision@0.5": 0.053659881125391724,
+          "Precision@0.95": 0.006562742230914415,
+          "Recall@0.5": 0.9561505963851907,
+          "Recall@0.95": 0.1529665431959015,
+          "F1@0.5": 0.0986330332349175,
+          "F1@0.95": 0.012161505928239641
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      },
+      {
+        "seed": 44,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_medium/seed_44/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.6862766155601578,
+          "mAP@0.75": 0.5727728456602292,
+          "mAP@0.95": 0.018602322533002508,
+          "mAP@0.5:0.95": 0.4886571611203607,
+          "Precision@0.5": 0.06339038240908257,
+          "Precision@0.95": 0.006441971428970118,
+          "Recall@0.5": 0.958019008783649,
+          "Recall@0.95": 0.13017372206299935,
+          "F1@0.5": 0.11293777048054925,
+          "F1@0.95": 0.011633157118948667
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      }
+    ],
+    "large:cl_detr": [
+      {
+        "seed": 42,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_large/seed_42/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.7466384691172677,
+          "mAP@0.75": 0.6414571345168913,
+          "mAP@0.95": 0.033168230103638514,
+          "mAP@0.5:0.95": 0.5457429364784673,
+          "Precision@0.5": 0.07085553731981536,
+          "Precision@0.95": 0.006761551439752792,
+          "Recall@0.5": 0.9703614901283529,
+          "Recall@0.95": 0.13836943035713292,
+          "F1@0.5": 0.12116062448341043,
+          "F1@0.95": 0.012006115388104102
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      },
+      {
+        "seed": 43,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_large/seed_43/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.7030249979068829,
+          "mAP@0.75": 0.5915913667112777,
+          "mAP@0.95": 0.02286062107068869,
+          "mAP@0.5:0.95": 0.5073198403082392,
+          "Precision@0.5": 0.054287085285839115,
+          "Precision@0.95": 0.0056736778003006645,
+          "Recall@0.5": 0.9617048426933978,
+          "Recall@0.95": 0.14118596407855608,
+          "F1@0.5": 0.09891310848139921,
+          "F1@0.95": 0.010402073619535384
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      },
+      {
+        "seed": 44,
+        "output_dir": "experiments/suites/thesis_l40_cldetr/model_large/seed_44/cl_detr",
+        "mixed_metrics": {
+          "mAP@0.5": 0.6981862628468908,
+          "mAP@0.75": 0.5763888142771266,
+          "mAP@0.95": 0.03497024149336748,
+          "mAP@0.5:0.95": 0.5066654969827612,
+          "Precision@0.5": 0.06926376579246711,
+          "Precision@0.95": 0.0065140247731855965,
+          "Recall@0.5": 0.9516373327131457,
+          "Recall@0.95": 0.13165359724180517,
+          "F1@0.5": 0.12171356854524579,
+          "F1@0.95": 0.011558624502093787
+        },
+        "matched_metrics": {},
+        "average_forgetting": null
+      }
+    ]
+  }
+}

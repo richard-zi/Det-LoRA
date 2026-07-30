@@ -1,0 +1,32 @@
+# Python
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+
+# datasets and model weights (too large for git)
+/data/
+*.pt
+*.pth
+*.safetensors
+experiments/
+runs/
+models/
+
+# local literature collection, not distributed
+papers/
+
+# generated figures (built from experiment results)
+figures/
+
+# training logs (several GB)
+*.log
+
+# IDE
+.vscode
+.idea
+*.swp
+
+# macOS / Jupyter
+.DS_Store
+.ipynb_checkpoints/

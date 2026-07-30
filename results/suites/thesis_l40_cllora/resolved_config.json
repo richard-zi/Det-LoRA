@@ -1,0 +1,74 @@
+{
+  "suite_name": "thesis_l40_cllora",
+  "phase": "training",
+  "models": [
+    "nano",
+    "small",
+    "base",
+    "medium",
+    "large"
+  ],
+  "classes": [
+    "military_tank",
+    "military_truck",
+    "military_aircraft",
+    "military_helicopter",
+    "civilian_car",
+    "civilian_aircraft"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "preset": "l40_final",
+  "data_dir": "data/raw",
+  "save_dir": "experiments",
+  "methods": [],
+  "max_samples": null,
+  "synthetic": false,
+  "enable_shared_quality_calibrator": true,
+  "use_adapter_arbitration": true,
+  "use_hard_negatives": true,
+  "symmetric_hard_negatives": true,
+  "lora_target_preset": "localization_box_ffn",
+  "use_shared_adapter": true,
+  "shared_drift_weight": 5.0,
+  "extension": {
+    "enabled": true,
+    "symmetric_hard_negatives": true,
+    "classes": [
+      "military_tank",
+      "military_aircraft",
+      "military_helicopter"
+    ],
+    "data_dir": "data/extension/raw",
+    "test_data_dir": "data/raw",
+    "arbitration_data_dir": "data/raw",
+    "det_lora_strategies": [
+      "warm_start",
+      "grow_freeze"
+    ],
+    "version_selection_strategy": "anchor_latest",
+    "use_hard_negatives": true,
+    "use_adapter_arbitration": true,
+    "seed_offset": 1000,
+    "max_samples": null,
+    "stages": [
+      {
+        "name": "stage_1",
+        "epochs": 10,
+        "max_samples": 64
+      },
+      {
+        "name": "stage_2",
+        "epochs": 10,
+        "max_samples": 64,
+        "sample_offset": 64,
+        "disjoint_max_samples": 64
+      }
+    ],
+    "stability_loss_weight": 1e-05,
+    "teacher_anchor_weight": 0.05
+  }
+}

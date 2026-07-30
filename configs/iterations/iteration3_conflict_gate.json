@@ -1,0 +1,11 @@
+{
+  "description": "Iteration 3: post-hoc conflict gate. Evaluation-only step; re-evaluates the final Det-LoRA checkpoints of iteration 1 (thesis_l40_main) and iteration 2 (thesis_l40_symhn) with and without the pairwise Mahalanobis conflict gate. No training suite is launched.",
+  "runner": "scripts/ablations/gate_posthoc_sweep.py",
+  "source_suites": ["thesis_l40_main", "thesis_l40_symhn"],
+  "models": ["nano", "small", "base", "medium", "large"],
+  "seeds": [42, 43, 44],
+  "data_dir": "data/raw",
+  "fit_max_samples": 999999,
+  "cache_dir": "experiments/probes/gate_posthoc_cache",
+  "output_dir": "experiments/probes/gate_posthoc_sweep"
+}

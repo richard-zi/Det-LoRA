@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the thesis below."
+title: "Det-LoRA"
+authors:
+  - family-names: Zimmermann
+    given-names: Richard
+year: 2026
+repository-code: "https://github.com/richard-zi/Det-LoRA"
+license: MIT
+preferred-citation:
+  type: thesis
+  title: "Det-LoRA: Parameter-Efficient Class-Incremental Object Detection with RF-DETR"
+  authors:
+    - family-names: Zimmermann
+      given-names: Richard
+  year: 2026
+  institution:
+    name: "FOM Hochschule"

@@ -1,0 +1,26 @@
+{
+  "suite_name": "thesis_l40_joint_baseline",
+  "phase": "all",
+  "models": ["nano", "small", "base", "medium", "large"],
+  "classes": [
+    "military_tank",
+    "military_truck",
+    "military_aircraft",
+    "military_helicopter",
+    "civilian_car",
+    "civilian_aircraft"
+  ],
+  "seeds": [42, 43, 44],
+  "preset": "l40_final",
+  "data_dir": "data/raw",
+  "save_dir": "experiments",
+  "methods": ["joint_finetuning"],
+  "max_samples": null,
+  "synthetic": false,
+  "enable_shared_quality_calibrator": true,
+  "use_adapter_arbitration": true,
+  "use_hard_negatives": true,
+  "extension": {
+    "enabled": false
+  }
+}
