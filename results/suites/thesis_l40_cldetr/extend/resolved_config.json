@@ -1,0 +1,63 @@
+{
+  "suite_name": "thesis_l40_cldetr",
+  "phase": "baselines",
+  "models": [
+    "nano",
+    "small",
+    "base",
+    "medium",
+    "large"
+  ],
+  "classes": [
+    "military_tank",
+    "military_truck",
+    "military_aircraft",
+    "military_helicopter",
+    "civilian_car",
+    "civilian_aircraft"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "preset": "l40_final",
+  "data_dir": "data/raw",
+  "save_dir": "experiments",
+  "methods": [
+    "cl_detr"
+  ],
+  "max_samples": null,
+  "synthetic": false,
+  "cl_detr_top_k": 10,
+  "cl_detr_iou_lambda": 0.7,
+  "cl_detr_calibration_epochs": 5,
+  "extension": {
+    "enabled": true,
+    "classes": [
+      "military_tank",
+      "military_aircraft",
+      "military_helicopter"
+    ],
+    "data_dir": "data/extension/raw",
+    "test_data_dir": "data/raw",
+    "seed_offset": 1000,
+    "max_samples": null,
+    "stages": [
+      {
+        "name": "stage_1",
+        "epochs": 10,
+        "max_samples": 64
+      },
+      {
+        "name": "stage_2",
+        "epochs": 10,
+        "max_samples": 64,
+        "sample_offset": 64,
+        "disjoint_max_samples": 64
+      }
+    ]
+  },
+  "enable_shared_quality_calibrator": true,
+  "use_adapter_arbitration": false
+}
